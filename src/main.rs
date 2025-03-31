@@ -1,6 +1,6 @@
 use std::env;
 use std::fs::File;
-use std::io::{self, Read, Write};
+use std::io::{self};
 
 macro_rules! debug_println {
     ($($arg:tt)*) => {
